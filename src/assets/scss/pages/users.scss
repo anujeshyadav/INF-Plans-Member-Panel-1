@@ -1,0 +1,125 @@
+/*** User pages ***/
+
+.users-avatar-shadow {
+  box-shadow: 2px 4px 14px 0 rgba(34, 41, 47, 0.4);
+}
+
+// aggrid actions dropdown
+.actions-dropdown {
+  .btn-group .btn {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+    border-radius: 0.5rem !important;
+  }
+}
+// date picker width
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+// User view Table
+.permissions-table {
+  td,
+  th {
+    padding: 0.5rem;
+  }
+}
+
+// User view info
+.users-page-view-table .user-info {
+  div {
+    padding: 0.5rem;
+  }
+  .user-info-title {
+    min-width: 140px;
+  }
+}
+.setUp img {
+  display: inline-block;
+  // height: 300px;
+}
+@media (max-width: 576px) {
+  .ag-grid-table {
+    .ag-paging-panel {
+      height: 160px;
+    }
+    .sort-dropdown {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// rohit css
+
+ul.hp-list {
+  list-style: none;
+  padding: 0 40px;
+}
+li.hp-list-1 {
+  line-height: 35px;
+  border: 1px solid#cccccc52;
+  padding: 10px;
+}
+span.hp-list-1 {
+  width: 40%;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  float: right;
+}
+li.hp-list-1 p {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+// header color css
+
+.navbar-container.content.st-color {
+  background: linear-gradient(to left, #6cb0cd 55%, #252362 100%) !important;
+}
+.header-navbar .navbar-container ul.nav li > .nav-link {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.orderlist{
+  // padding: 3px;
+  font-size: 13px;
+  font-style: italic
+}
+.customclass.row {
+  // height: 80px;
+  // margin-top: 17px;
+}
+// .customcolstyle {
+//   border-right: 1px solid #808080a1;
+// }
+input.form-control.inputfields.mt-1 {
+  height: 44px;
+  margin-left: 17px;
+  border: none;
+  border-radius: 21px;
+  padding: 10px;
+}
+button.custombtn2.btn.btn-primary {
+  height: 43px;
+  border-radius: 20px;
+}
+details.DetailsDropdown {
+  position: absolute;
+  background-color:white;
+  // padding: 14px 13px;
+  z-index: 999;
+  border-radius: 7px;
+}
+.emailidinput {
+  padding-left: 35%;
+}
+span.quoteinclusion {
+  font-size: 10px;
+  color: white;
+}
+.comparepresinput {
+  padding: 27px 30px;
+  background-color: #e2e1e166;
+}
