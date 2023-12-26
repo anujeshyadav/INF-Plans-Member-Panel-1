@@ -19,13 +19,7 @@ class SidebarHeader extends Component {
           <li className="nav-item mr-auto d-flex justify-content-center mb-2">
             <NavLink to="/" className="navbar-brand">
               <div className=" ">
-                <img
-                  src={logo}
-                  alt="logo"
-                  width="100px"
-                  height={46}
-                  // style={{ width: "150" }}
-                />
+                <img src={logo} alt="logo" width="100px" height={46} />
               </div>
 
               {/* <h2 className="brand-text mb-0">TRUPEE</h2> */}
