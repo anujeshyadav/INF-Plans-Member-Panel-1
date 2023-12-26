@@ -72,7 +72,7 @@ class Login extends React.Component {
                           this.toggle("1");
                         }}
                       >
-                        JWT
+                        JWT Login
                       </NavLink> */}
                     </NavItem>
                     <NavItem>
